@@ -1,0 +1,25 @@
+{
+    "name": "devlib/mailchimp-api",
+    "description": "Simple MailChimp API Wrapper for PHP 7",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "adrian7",
+            "email": "adrian.silimon@yahoo.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "adrian7/mailchimp-api-v3": "^1.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.3",
+        "fzaninotto/faker": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevLib\\": "src/"
+        }
+    }
+}
