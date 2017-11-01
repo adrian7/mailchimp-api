@@ -1,8 +1,8 @@
 <?php
 /**
- * SMS Signin Gateway - Mailchimp API integration class
- * @author adrian7 (adrian@studentmoneysaver.co.uk)
- * @version 1.1
+ * MailChimp API Wrapper Main Class
+ * @author adrian7
+ * @version 1.0
  */
 
 namespace DevLib\API\MailChimp;

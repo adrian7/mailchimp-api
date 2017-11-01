@@ -61,7 +61,7 @@ class MailChimpTest extends \Codeception\Test\Unit {
             $this->fail("Please provide the MAILCHIMP_LIST_ID env variable ... . ");
 
         //init wrapper
-        $this->wrapper = new \DevLib\API\MailChimp( $apiKey, $this->list_id );
+        $this->wrapper = new DevLib\API\MailChimp\MailChimp( $apiKey, $this->list_id );
 
     }
 
